@@ -1,0 +1,15 @@
+{
+    "env_id": "BipedalWalker-v2",
+    "training_config": {
+        "env_params": {
+            "restrict_actions": true
+        },
+        "robust": false,
+        "attack_config": {
+            "params": {
+                "niters": 10
+            }
+        },
+        "adv_train": true
+    }
+}

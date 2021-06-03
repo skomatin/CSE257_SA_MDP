@@ -1,0 +1,9 @@
+{
+    "env_id": "BipedalWalkerHardcore-v2",
+    "training_config": {
+        "env_params": {
+            "restrict_actions": true
+        },
+        "bound_solver": "pgd"
+    }
+}

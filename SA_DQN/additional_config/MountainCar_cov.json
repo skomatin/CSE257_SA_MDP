@@ -1,0 +1,8 @@
+{
+    "env_id": "MountainCar-v0",
+    "training_config": {
+        "env_params": {
+            "restrict_actions": true
+        }
+    }
+}
