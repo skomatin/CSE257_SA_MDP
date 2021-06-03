@@ -149,7 +149,7 @@ def compute_td_loss(current_model, target_model, batch_size, replay_buffer, per,
     tgt_next_q_value = tgt_next_q_logits.max(1)[0]
     expected_q_value = reward + gamma * tgt_next_q_value * (1 - done)
     '''
-    # Merge two states into one batch
+    # Merge two states into one batch#
     state = state.to(torch.float)
     if dtype in UINTS:
         state /= 255
